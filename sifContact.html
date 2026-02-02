@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+
+    <style>
+        .contactForm {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #0f172a;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    color: #e5e7eb;
+}
+
+.contactForm h2 {
+    text-align: center;
+    color: #1a8577;
+    margin-bottom: 10px;
+}
+
+.contactForm p {
+    text-align: center;
+    font-size: 13px;
+    color: #9ca3af;
+    margin-bottom: 25px;
+}
+
+.formRow {
+    margin-bottom: 15px;
+}
+
+.formRow input,
+.formRow textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 13px;
+    border-radius: 6px;
+    border: 1px solid #334155;
+    background-color: #020617;
+    color: #e5e7eb;
+    outline: none;
+}
+
+.formRow input::placeholder,
+.formRow textarea::placeholder {
+    color: #9ca3af;
+}
+
+.formRow input:focus,
+.formRow textarea:focus {
+    border-color: #1a8577;
+}
+
+.formRow button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a8577;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formRow button:hover {
+    background-color: #146b60;
+}
+
+    </style>
+
+
+</head>
+<body>
+    <div class="contactForm">
+    <h2>Get In Touch</h2>
+    <p>If you have any questions, opportunities, or collaborations in mind, feel free to contact me.</p>
+
+    <form>
+        <div class="formRow">
+            <input type="text" placeholder="Full Name" required>
+        </div>
+
+        <div class="formRow">
+            <input type="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="formRow">
+            <input type="text" placeholder="Subject">
+        </div>
+
+        <div class="formRow">
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+        </div>
+
+        <div class="formRow">
+            <button type="submit">Send Message</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
